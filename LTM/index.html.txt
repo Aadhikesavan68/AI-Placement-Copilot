@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aadhikesavan S - Resume</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="resume">
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <h1>AADHIKESAVAN S</h1>
+
+        <div class="contact">
+            Salem, Tamil Nadu |
+            +91 6380071486 |
+            <a href="mailto:aadhikesavan68@gmail.com">
+                aadhikesavan68@gmail.com
+            </a>
+        </div>
+
+        <div class="links">
+            <a href="https://github.com/Aadhikesavan68" target="_blank">
+                GitHub: Aadhikesavan68
+            </a>
+            |
+            <a href="https://linkedin.com/in/aadhikesavan01" target="_blank">
+                LinkedIn: aadhikesavan01
+            </a>
+            |
+            <a href="https://leetcode.com/u/Lonely_Aadhi/" target="_blank">
+                LeetCode
+            </a>
+        </div>
+
+    </header>
+
+
+    <!-- ================= EDUCATION ================= -->
+
+    <section>
+
+        <h2>EDUCATION DETAILS</h2>
+
+        <table class="education-table">
+
+            <thead>
+                <tr>
+                    <th>Course Details</th>
+                    <th>Institute Name</th>
+                    <th>University Name</th>
+                    <th>Year of Passing</th>
+                    <th>Score Details</th>
+                    <th>Course Type</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>
+                        B.Tech - Artificial Intelligence and Data Science
+                    </td>
+
+                    <td>
+                        Sona College of Technology
+                    </td>
+
+                    <td>
+                        Anna University
+                    </td>
+
+                    <td>
+                        2027
+                    </td>
+
+                    <td>
+                        CGPA: 8.23
+                    </td>
+
+                    <td>
+                        Full-time
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        Higher Secondary (12th)
+                    </td>
+
+                    <td>
+                        Bala Bharathi Matric Higher Secondary School
+                    </td>
+
+                    <td>
+                        Tamil Nadu State Board
+                    </td>
+
+                    <td>
+                        2022
+                    </td>
+
+                    <td>
+                        87.8%
+                    </td>
+
+                    <td>
+                        Full-time
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        Secondary (10th)
+                    </td>
+
+                    <td>
+                        Yuva Bharathi Matriculation School
+                    </td>
+
+                    <td>
+                        Tamil Nadu State Board
+                    </td>
+
+                    <td>
+                        2020
+                    </td>
+
+                    <td>
+                        100%
+                    </td>
+
+                    <td>
+                        Full-time
+                    </td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </section>
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section>
+
+        <h2>PROJECTS UNDERTAKEN</h2>
+
+
+        <div class="project">
+
+            <h3>
+                1. AI-Based Intelligent System for Skin Disease Detection
+            </h3>
+
+            <ul>
+
+                <li>
+                    Developed a CNN-based deep learning system for
+                    multi-class skin disease detection using medical images.
+                </li>
+
+                <li>
+                    Implemented image preprocessing, resizing, normalization,
+                    augmentation and model prediction.
+                </li>
+
+                <li>
+                    Integrated location-based hospital recommendation
+                    using OpenStreetMap APIs.
+                </li>
+
+                <li>
+                    Developed an interactive Streamlit interface for
+                    disease prediction and healthcare recommendations.
+                </li>
+
+                <li>
+                    <strong>Technologies:</strong>
+                    Python, TensorFlow, Keras, MobileNetV3,
+                    Streamlit, NumPy, Pandas, OpenStreetMap API
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <div class="project">
+
+            <h3>
+                2. Automated Data Analysis & Visualization Web Application
+            </h3>
+
+            <ul>
+
+                <li>
+                    Developed a web application to automate dataset
+                    cleaning, preprocessing and exploratory data analysis.
+                </li>
+
+                <li>
+                    Implemented missing-value handling, outlier detection,
+                    statistical analysis and data visualization.
+                </li>
+
+                <li>
+                    Integrated an AI-powered report generation feature
+                    for automated analytical insights.
+                </li>
+
+                <li>
+                    <strong>Technologies:</strong>
+                    Python, Streamlit, Pandas, NumPy,
+                    Matplotlib, Plotly, Groq API
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <div class="project">
+
+            <h3>
+                3. Farmer-Customer Direct Marketplace
+            </h3>
+
+            <ul>
+
+                <li>
+                    Developed a MERN-based marketplace connecting farmers
+                    directly with customers.
+                </li>
+
+                <li>
+                    Implemented product management, user authentication,
+                    role-based access and REST API integration.
+                </li>
+
+                <li>
+                    Designed responsive React.js interfaces and
+                    MongoDB database schemas.
+                </li>
+
+                <li>
+                    <strong>Technologies:</strong>
+                    MongoDB, Express.js, React.js, Node.js
+                </li>
+
+            </ul>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= STRONG SUBJECTS ================= -->
+
+    <section>
+
+        <h2>STRONG SUBJECTS</h2>
+
+        <p class="subject-list">
+
+            <strong>Data Structures & Algorithms</strong> |
+            <strong>Object-Oriented Programming</strong> |
+            <strong>DBMS</strong> |
+            <strong>SQL</strong> |
+            <strong>Operating Systems</strong> |
+            <strong>Computer Networks</strong> |
+            <strong>Java Programming</strong>
+
+        </p>
+
+    </section>
+
+
+    <!-- ================= CERTIFICATIONS ================= -->
+
+    <section>
+
+        <h2>CERTIFICATIONS</h2>
+
+        <ul>
+
+            <li>
+                <strong>Internet of Things</strong> –
+                NPTEL | Score: 91% | Top 1%
+            </li>
+
+            <li>
+                <strong>Data Processing and Visualization</strong> –
+                NASSCOM
+            </li>
+
+            <li>
+                <strong>Introduction to Python Programming</strong> –
+                Infosys Springboard
+            </li>
+
+        </ul>
+
+    </section>
+
+
+    <!-- ================= INTERNSHIP ================= -->
+
+    <section>
+
+        <h2>INTERNSHIP EXPERIENCE</h2>
+
+        <div class="internship">
+
+            <h3>
+                Infosys Springboard Virtual Internship 6.0 –
+                AI Domain
+            </h3>
+
+            <ul>
+
+                <li>
+                    Completed an 8-week virtual internship focused on
+                    Artificial Intelligence and Machine Learning.
+                </li>
+
+                <li>
+                    Developed an AI-based skin disease detection and
+                    healthcare recommendation system.
+                </li>
+
+                <li>
+                    Worked on image preprocessing, deep learning model
+                    training, evaluation and prediction.
+                </li>
+
+                <li>
+                    Applied CNN and transfer learning techniques using
+                    MobileNetV3.
+                </li>
+
+                <li>
+                    <strong>Technologies:</strong>
+                    Python, TensorFlow, Keras, CNN,
+                    MobileNetV3, Streamlit
+                </li>
+
+            </ul>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= TECHNICAL SKILLS ================= -->
+
+    <section>
+
+        <h2>TECHNICAL SKILLS</h2>
+
+        <p>
+            <strong>Programming:</strong>
+            Java, Python, SQL, JavaScript
+        </p>
+
+        <p>
+            <strong>Web Technologies:</strong>
+            HTML, CSS, Bootstrap, React.js, Node.js, Express.js
+        </p>
+
+        <p>
+            <strong>Databases:</strong>
+            MySQL, MongoDB
+        </p>
+
+        <p>
+            <strong>Tools & Technologies:</strong>
+            Git, GitHub, Streamlit, TensorFlow
+        </p>
+
+    </section>
+
+
+    <!-- ================= ACHIEVEMENTS ================= -->
+
+    <section>
+
+        <h2>ACHIEVEMENTS</h2>
+
+        <ul>
+
+            <li>
+                Won <strong>First Prize</strong> in ML & Data Analytics
+                Capstone Competition.
+            </li>
+
+            <li>
+                Solved <strong>250+ coding problems</strong> on LeetCode.
+            </li>
+
+            <li>
+                Participated in ICPC and Smart India Hackathon.
+            </li>
+
+        </ul>
+
+    </section>
+
+
+</div>
+
+</body>
+</html>

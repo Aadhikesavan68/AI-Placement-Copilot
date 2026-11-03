@@ -1,0 +1,290 @@
+/* =====================================================
+   GENERAL
+===================================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background: #ffffff;
+    color: #000000;
+
+    font-family: "Times New Roman", Times, serif;
+
+    font-size: 11.5px;
+    line-height: 1.25;
+}
+
+
+/* =====================================================
+   RESUME PAGE
+===================================================== */
+
+.resume {
+
+    width: 210mm;
+    min-height: 297mm;
+
+    margin: 8px auto;
+    padding: 12mm 13mm;
+
+    background: #ffffff;
+}
+
+
+/* =====================================================
+   HEADER
+===================================================== */
+
+.header {
+    text-align: center;
+
+    margin-bottom: 8px;
+}
+
+.header h1 {
+
+    font-size: 22px;
+
+    margin: 0 0 4px 0;
+
+    font-weight: bold;
+}
+
+.contact,
+.links {
+
+    font-size: 10.5px;
+
+    line-height: 1.4;
+
+    margin: 1px 0;
+}
+
+a {
+
+    color: #000000;
+
+    text-decoration: none;
+}
+
+
+/* =====================================================
+   SECTIONS
+===================================================== */
+
+section {
+
+    margin-top: 8px;
+
+    page-break-inside: avoid;
+}
+
+section h2 {
+
+    font-size: 12.5px;
+
+    font-weight: bold;
+
+    margin: 0 0 5px 0;
+
+    padding-bottom: 2px;
+
+    border-bottom: 1px solid #000000;
+
+    text-transform: uppercase;
+}
+
+
+/* =====================================================
+   EDUCATION TABLE
+===================================================== */
+
+.education-table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    table-layout: fixed;
+
+    font-size: 9.2px;
+}
+
+.education-table th,
+.education-table td {
+
+    border: 1px solid #000000;
+
+    padding: 4px 4px;
+
+    vertical-align: middle;
+
+    text-align: center;
+
+    line-height: 1.15;
+}
+
+.education-table th {
+
+    font-weight: bold;
+
+    background: #f2f2f2;
+}
+
+
+/*
+   Column widths
+*/
+
+.education-table th:nth-child(1),
+.education-table td:nth-child(1) {
+    width: 18%;
+}
+
+.education-table th:nth-child(2),
+.education-table td:nth-child(2) {
+    width: 21%;
+}
+
+.education-table th:nth-child(3),
+.education-table td:nth-child(3) {
+    width: 17%;
+}
+
+.education-table th:nth-child(4),
+.education-table td:nth-child(4) {
+    width: 11%;
+}
+
+.education-table th:nth-child(5),
+.education-table td:nth-child(5) {
+    width: 17%;
+}
+
+.education-table th:nth-child(6),
+.education-table td:nth-child(6) {
+    width: 16%;
+}
+
+
+/* =====================================================
+   PROJECTS / INTERNSHIP
+===================================================== */
+
+.project,
+.internship {
+
+    margin-bottom: 6px;
+}
+
+.project h3,
+.internship h3 {
+
+    font-size: 11.5px;
+
+    margin: 0 0 2px 0;
+
+    font-weight: bold;
+}
+
+
+/* =====================================================
+   LISTS
+===================================================== */
+
+ul {
+
+    margin: 2px 0 4px 16px;
+
+    padding: 0;
+}
+
+li {
+
+    margin-bottom: 2px;
+
+    font-size: 10.8px;
+
+    line-height: 1.25;
+
+    text-align: justify;
+}
+
+
+/* =====================================================
+   PARAGRAPHS
+===================================================== */
+
+p {
+
+    margin: 2px 0;
+
+    font-size: 10.8px;
+
+    line-height: 1.25;
+
+    text-align: justify;
+}
+
+
+/* =====================================================
+   STRONG SUBJECTS
+===================================================== */
+
+.subject-list {
+
+    text-align: left;
+
+    line-height: 1.5;
+}
+
+
+/* =====================================================
+   PRINT SETTINGS
+===================================================== */
+
+@page {
+
+    size: A4;
+
+    margin: 8mm;
+}
+
+
+@media print {
+
+    body {
+
+        margin: 0;
+
+        background: #ffffff;
+    }
+
+    .resume {
+
+        width: 100%;
+
+        min-height: auto;
+
+        margin: 0;
+
+        padding: 0;
+    }
+
+    section {
+
+        page-break-inside: avoid;
+    }
+
+    a {
+
+        color: #000000;
+
+        text-decoration: none;
+    }
+}
