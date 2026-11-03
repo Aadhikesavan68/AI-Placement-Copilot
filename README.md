@@ -1,3 +1,8 @@
+# sona-final-year-mini-it-aids-d-aadhikesavan68-894
+StartupFair hackathon: Solo Participant 61 (Final year mini project (IT / AIDS Dept))
+
+---
+
 # AI Placement Copilot
 
 AI-powered resume analysis, job matching, learning roadmaps, and adaptive
